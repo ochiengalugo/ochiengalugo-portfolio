@@ -3,38 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Izary Alugo | Portfolio</title>
+    <title>Ochieng Derrick Alugo | Portfolio</title>
     <link rel="stylesheet" href="alugo.css">
 </head>
 <body>
 
     <header>
-        <h1>Izary Alugo</h1>
-        <nav>
-            <a href="https://github.com/your-username" target="_blank">My GitHub Profile</a>
-        </nav>
+        <div class="container">
+            <h1>Ochieng Derrick Alugo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://github.com/ochiengalugo" class="github-btn" target="_blank">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a passionate Software Engineering student focused on building clean and functional web applications.</p>
-            <h3>Skills</h3>
-            <ul>
-                <li>HTML5 & CSS3 (Flexbox/Grid)</li>
-                <li>JavaScript (ES6+)</li>
-                <li>Python</li>
-                <li>Git & Version Control</li>
-            </ul>
-        </section>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I am a Software Engineering student at Moringa school focused on building functional, user-centric web applications. Currently, I am honing my skills in Frontend development, Git version control, and system administration using WSL Ubuntu.</p>
+            <h3>Technical Skills</h3>
+            <div class="skills-tags">
+                <span>HTML5 / CSS3</span>
+                <span>JavaScript</span>
+                <span>Git & GitHub</span>
+            </div>
+        </div>
+    </section>
+    
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-grid">
+     <div class="project-grid">
                 <div class="project-card">
                     <h3>JavaScript Calculator</h3>
-                    <p>A fully functional OS-style calculator built with vanilla JavaScript.</p>
+                    <p>A fully functional OS-style calculator built with HTML,CSS & JavaScript.</p>
                     <a href="#">View Code</a>
+                    <img src="c:\Users\User\Pictures\Screenshots\Screenshot 2026-03-22 222416.png" alt="Screenshot of my JS Calculator"> 
                 </div>
                 
                 <div class="project-card">
@@ -44,11 +51,9 @@
                 </div>
             </div>
         </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2026 Izary Alugo</p>
-    </footer>
+        <section id="contact" class="reach">
+        <h2>Call me:</h2>
+        <h4>0794829895</h4>
 
-</body>
-</html>
+    </section>
